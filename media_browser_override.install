@@ -1,0 +1,9 @@
+<?php 
+/**
+ * Implements hook_uninstall().
+ */
+function media_browser_override_uninstall() {
+  variable_del('media_browser_override_default_wysiwyg_view_mode');
+  variable_del('media_browser_override_skip_view_mode_form');
+  variable_del('media_browser_override_alter_plugin_js');
+}

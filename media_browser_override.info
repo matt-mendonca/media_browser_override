@@ -1,0 +1,9 @@
+name = Media Browser Override.
+description = Overrides the settings for Media 2.x's Media Browser WYSIWYG plugin.
+core = 7.x
+version = "7.x-1.x"
+package = "Media"
+configure = admin/config/media/media-browser-override
+dependencies[] = wysiwyg
+dependencies[] = media
+dependencies[] = media_wysiwyg_view_mode
